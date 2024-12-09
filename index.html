@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Game Landing</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__logo">
+                    <img src="images/header/header-logo.png" alt="logo">
+                </div>
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">MAIN</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">about</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">game features</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">System requirements</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">quotes</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__actions actions">
+                    <div class="select-menu">
+                        <div class="select-btn">
+                            <span class="select-btn-text">lan</span>
+                            <i class="bx bx-chevron-down"></i>
+                        </div>
+                        <ul class="options">
+                            <li class="option">
+                                <span class="option-text" >rus</span>
+                            </li>
+                            <li class="option">
+                                <span class="option-text" >fra</span>
+                            </li>
+                            <li class="option">
+                                <span class="option-text" >deu</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="actions__link">
+                        <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.91357 3.17896C11.4956 3.80017 13.0249 4.62064 14.4663 5.62279C14.6303 5.73414 14.8178 5.79275 15.0053 5.79275C15.1928 5.79275 15.3803 5.73414 15.5444 5.62279C16.9858 4.62064 18.5151 3.79431 20.0971 3.17309C20.4545 3.03244 20.6948 2.68081 20.6889 2.29402C20.6889 1.90722 20.4487 1.56145 20.0854 1.42666C16.9214 0.225253 13.0893 0.225253 9.93115 1.42666C9.57373 1.56145 9.32764 1.91308 9.32764 2.29402C9.32764 2.67495 9.55029 3.0383 9.91357 3.17896Z" fill="#FFB548"/>
+                            <path d="M23.502 3.18427C23.2031 2.97916 22.8223 2.96158 22.5 3.14325C20.748 4.15126 19.0547 5.30578 17.4551 6.57752C17.2441 6.74747 17.1152 6.99947 17.1035 7.26906C17.0918 7.53864 17.1973 7.80236 17.3906 7.9899C20.707 11.1487 25.3008 20.8362 26.3555 25.2902C24.0703 21.4222 18.9727 12.3208 15.6387 9.20889C15.2812 8.87484 14.7188 8.87484 14.3613 9.20889C11.0215 12.3208 5.94141 21.4281 3.65625 25.3019C4.71094 20.8479 9.29297 11.1487 12.6094 7.9899C12.8086 7.80236 12.9141 7.53864 12.9023 7.26906C12.8906 6.99947 12.7617 6.74747 12.5508 6.57752C10.9512 5.30578 9.25195 4.15126 7.50586 3.14325C7.19531 2.96158 6.80273 2.97916 6.50391 3.18427C2.43164 5.99146 0 10.6037 0 15.5265C0 19.1249 1.29492 22.5943 3.65625 25.3019C6.48047 28.6189 10.6113 30.5295 15 30.5295C19.3887 30.5295 23.5254 28.6248 26.3555 25.296C28.7051 22.6002 30 19.1307 30 15.5265C30 10.6037 27.5684 5.99146 23.502 3.18427Z" fill="#FFB548"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="actions__link">
+                        <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15 30.5276C23.2843 30.5276 30 23.8118 30 15.5276C30 7.24329 23.2843 0.527557 15 0.527557C6.71573 0.527557 0 7.24329 0 15.5276C0 17.0556 0.228477 18.5302 0.653132 19.9192C0.761502 19.9388 0.936687 19.9833 1.19192 20.0581L0.793274 13.7856C0.793274 13.6706 0.987216 13.6153 1.1649 13.5647C1.26242 13.5369 1.35505 13.5104 1.40802 13.4763C1.55269 13.3849 4.53183 14.4727 4.69097 14.5449L8.50059 16.2681C9.48434 15.6472 10.661 15.3969 11.8183 15.5653L15.2808 11.3439C15.3242 7.97438 18.0729 5.25954 21.4533 5.25473C24.6119 5.28842 27.2305 7.6952 27.5294 10.8288C27.8477 14.2175 25.3594 17.2212 21.9645 17.5437L16.197 21.6593C15.845 23.4644 14.5526 24.9421 12.8069 25.5294C10.1305 26.4343 7.22268 24.9999 6.32091 22.3236L4.31483 21.6593C4.1661 21.612 1.43629 20.4764 0.696709 20.0593C2.61787 26.1286 8.29522 30.5276 15 30.5276ZM24.54 11.416C24.54 13.1174 23.1582 14.4967 21.4536 14.4967C19.7491 14.4967 18.3673 13.1174 18.3673 11.416C18.3673 9.71459 19.7491 8.33533 21.4536 8.33533C23.1582 8.33533 24.54 9.71459 24.54 11.416ZM23.5134 11.416C23.5134 12.5512 22.5914 13.4714 21.4542 13.4714C20.3169 13.4714 19.395 12.5512 19.395 11.416C19.395 10.2809 20.3169 9.36063 21.4542 9.36063C22.5914 9.36063 23.5134 10.2809 23.5134 11.416ZM9.82757 23.4307C10.2423 23.6329 10.7004 23.7388 11.1633 23.7388C11.5153 23.7388 11.8577 23.681 12.1953 23.5703C12.9717 23.3007 13.6034 22.7375 13.9602 22.0011C14.7028 20.4655 14.0566 18.6268 12.5232 17.8855C12.2628 17.7603 11.959 17.8662 11.8336 18.1213C11.7082 18.3813 11.8143 18.6845 12.0699 18.8097C12.1037 18.8241 12.1374 18.8386 12.1712 18.8578C13.1838 19.3777 13.5744 20.6148 13.0536 21.6256C12.5328 22.6364 11.2887 23.0263 10.2809 22.5065C10.0205 22.3813 9.71666 22.4872 9.59129 22.7423C9.46591 23.0023 9.572 23.3055 9.82757 23.4307Z" fill="#FFB548"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="hero">
+                <div class="hero__container">
+                    <div class="hero__content">
+                        <h1 class="hero__title">SURVIVE AT ALL COSTS</h1>
+                        <h4 class="hero__label section-label">Experience new social battle royale game</h4>
+                        <a href="#" class="hero__btn btn">
+                            <div class="hero__btn-content">
+                                <p class="hero__btn-text">Buy Now on Steam</p>
+                                <p class="hero__btn-price">$14.99</p>
+                            </div>
+                        </a>
+                    </div>
+                    <a href="#about" class="hero__scroll">
+                        <div class="scroll__content">
+                            <p class="scroll__content-text">The story</p>
+                            <img class="scroll__img" src="images/hero/scroll down.svg" alt="scroll down">
+                        </div>
+                    </a>
+                </div>
+                <img class="hero__bg" src="images/hero/hero-bg.jpg" alt="background image">
+            </section>
+            <section class="about" id="about">
+                <div class="about__container">
+                    <div class="about__content">
+                        <h4 class="about__label section-label">What is SOS?</h4>
+                        <h2 class="about__title section-title">social battle<br>
+                            royale game</h2>
+                        <p class="about__desc">Each round, <b>you</b> and <b>15</b> other contestants compete to
+                            escape a deadly island filled with monsters. The trick is: <b>three</b> people can survive. Will you run
+                            solo or form friendships with others to escape? 
+                        </p>
+                        <p class="about__desc">
+                            Making the right decisions could be the
+                            difference between <span>life and death.</span>
+                        </p>
+                    </div>
+                    <div class="about__slider slider">
+                        <div class="slider__slide-1">
+                            <img src="images/about/slide-1.jpg" alt="">
+                        </div>
+                        <div class="slider__slide-2">
+                            <img src="images/about/slide-2.jpg" alt="">
+                        </div>
+                        <div class="slider__slide-3">
+                            <img src="images/about/slide-3.jpg" alt="">
+                        </div>
+                        <div class="about__switch">
+                            <img src="images/about/switch.svg" alt="icon-switch">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="features">
+                <div class="features__container">
+                    <div class="about__content">
+                        <h4 class="about__label section-label">What's so special?</h4>
+                        <h2 class="about__title section-title">features</h2>
+                        <div class="about__ac-inner">
+                            <div class="about__ac-item">
+                                <label class="ac-trigger"><input class="ac-input" type="checkbox">SURVIVE AT ALL COSTS</label>
+                                <div class="ac-panel">
+                                    <div class="ac-content">
+                                        <p class="ac-text">
+                                            You have 30 minutes to find a relic, signal for extraction, and grab
+                                            one of three spots on the rescue chopper.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="about__ac-item">
+                                <label class="ac-trigger"><input class="ac-input" type="checkbox">CREATE ALLIES & ENEMIES</label>
+                                <div class="ac-panel">
+                                    <div class="ac-content">
+                                        <p class="ac-text">
+                                            You have 30 minutes to find a relic, signal for extraction, and grab
+                                            one of three spots on the rescue chopper.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="about__ac-item">
+                                <label class="ac-trigger"><input class="ac-input" type="checkbox">IMPRESS THE AUDIENCE</label>
+                                <div class="ac-panel">
+                                    <div class="ac-content">
+                                        <p class="ac-text">
+                                            You have 30 minutes to find a relic, signal for extraction, and grab
+                                            one of three spots on the rescue chopper.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="system">
+                <div class="system__container">
+                    <div class="system__heading">
+                        <h4 class="system__label section-label">Can My Computer Run this game?</h4>
+                        <h2 class="system__title section-title">system requirements</h2>
+                    </div>
+                    <div class="system__table table">
+                        <div class="table__item">
+                            <h3 class="table__title title-item">OS:</h3>
+                            <p class="table__desc">
+                                Windows 7 64-bit only<br>(No OSX support at this time)
+                            </p>
+                        </div>
+                        <div class="table__item">
+                            <h3 class="table__title title-item">pROCESSOR:</h3>
+                            <p class="table__desc">
+                                Intel Core 2 Duo @ 2.4 GHZor<br>AMD Athlon X2 @ 2.8 GHZ
+                            </p>
+                        </div>
+                        <div class="table__item">
+                            <h3 class="table__title title-item">mEMORY:</h3>
+                            <p class="table__desc">8GB RAM</p>
+                        </div>
+                        <div class="table__item">
+                            <h3 class="table__title title-item">storage:</h3>
+                            <p class="table__desc">8GB available space</p>
+                        </div>
+                        <div class="table__item">
+                            <h3 class="table__title title-item">GRAPHICS:</h3>
+                            <p class="table__desc">
+                                NVIDIA GeForce GTX 660 2GB or<br>AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="quotes">
+                <div class="quotes__container">
+                    <div class="quotes__content">
+                        <h4 class="quotes__label section-label">What people think?</h4>
+                        <h2 class="quotes__title section-title">Press quotes</h2>
+                        <p class="quotes__desc">
+                            Our goal is to create a product and service that you're satisfied with and use it every day. This is why we're constantly working on our services to make it better every day and really listen to what our users has to say.
+                        </p>
+                        <a href="#" class="quotes__btn btn">read more testimonials</a>
+                    </div>
+                    <div class="quotes__items">
+                        <div class="quotes__item">
+                            <div class="quotes__item-user user">
+                                <div class="user__foto">
+                                    <img src="images/quotes/photo-1.jpg" alt="image">
+                                </div>
+                                <div class="user__data">
+                                    <h3 class="user__data-title title-item">Evan Lahti</h3>
+                                    <p class="user__data-desc">PC Gamer</p>
+                                    
+                                </div>
+                                <img src="images/quotes/quotes-twitter icon.svg" alt="twitter-icon">
+                            </div>
+                            <p class="quotes__item-desc">“One of my gaming highlights of the year.”</p>
+                            <p class="quotes__item-date">October 18, 2018</p>
+                        </div>
+                        <div class="quotes__item">
+                            <div class="quotes__item-user user">
+                                <div class="user__foto">
+                                    <img src="images/quotes/photo-2.jpg" alt="image">
+                                </div>
+                                <div class="user__data">
+                                    <h3 class="user__data-title title-item">Jada Griffin</h3>
+                                    <p class="user__data-desc">Nerdreactor</p>
+                                </div>
+                                <img src="images/quotes/quotes-twitter icon.svg" alt="twitter-icon">
+                            </div>
+                            <p class="quotes__item-desc">
+                                “The next big thing in the world of streaming and survival games.”
+                            </p>
+                            <p class="quotes__item-date">December 21, 2018</p>
+                        </div>
+                        <div class="quotes__item">
+                            <div class="quotes__item-user user">
+                                <div class="user__foto">
+                                    <img src="images/quotes/photo-3.jpg" alt="image">
+                                </div>
+                                <div class="user__data">
+                                    <h3 class="user__data-title title-item">Aaron Williams </h3>
+                                    <p class="user__data-desc">Uproxx</p>
+                                    
+                                </div>
+                                <img src="images/quotes/quotes-twitter icon.svg" alt="twitter-icon">
+                            </div>
+                            <p class="quotes__item-desc">“Snoop Dogg Playing The Wildly Entertaining ‘SOS’ Is Ridiculous.”</p>
+                            <p class="quotes__item-date">December 24, 2018</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="news">
+                <div class="news__container">
+                    <div class="news__image">
+                        <img src="images/news/news-image.jpg" alt="image">
+                    </div>
+                    <div class="news__content">
+                        <h4 class="news__label section-label">Want to stay in touch?</h4>
+                        <h2 class="news__title section-title">newsletter SUBSCRIBE</h2>
+                        <p class="news__desc">
+                            In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. We will send you emails containing information about game. We don't spam.
+                        </p>
+                        <div class="news__input">
+                            <input class="mail" type="text" placeholder="Your email address">
+                            <button class="news__button btn">Subscribe now</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__top">
+                    <div class="header__logo">
+                        <img src="images/header/header-logo.png" alt="logo">
+                    </div>
+                    <nav class="header__menu menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">MAIN</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">about</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">game features</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">System requirements</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">quotes</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="footer__socials">
+                        <a href="#" class="footer__socials-link-facebook">
+                            <svg width="10" height="19" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.50222 18.1836H2.5123V9.18407H0.517822V6.08153H2.5123V4.21983C2.5123 1.68983 3.63876 0.183594 6.83577 0.183594H9.49832V3.28613H7.83544C6.58902 3.28613 6.50709 3.72027 6.50709 4.52979L6.50222 6.08153H9.51782L9.16477 9.18407H6.50222V18.1836Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer__socials-link-twitter">
+                            <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.5178 2.07859C20.7451 2.40059 19.9144 2.61559 19.0438 2.71359C19.9334 2.21359 20.6162 1.42159 20.938 0.479594C20.1044 0.941594 19.1827 1.27759 18.2011 1.45959C17.4164 0.673594 16.2958 0.183594 15.0573 0.183594C12.6782 0.183594 10.7479 1.99259 10.7479 4.22259C10.7479 4.53959 10.7859 4.84859 10.8599 5.14359C7.27925 4.97459 4.10446 3.36659 1.97927 0.923594C1.60841 1.52059 1.39649 2.21359 1.39649 2.95459C1.39649 4.35459 2.1572 5.59259 3.31276 6.31659C2.60703 6.29459 1.94328 6.11359 1.3615 5.81059C1.3615 5.82859 1.3615 5.84359 1.3615 5.86259C1.3615 7.81959 2.84594 9.45159 4.81718 9.82259C4.45632 9.91459 4.07447 9.96259 3.68262 9.96259C3.40472 9.96259 3.13483 9.93859 2.87193 9.89259C3.41972 11.4956 5.01111 12.6646 6.89639 12.6976C5.42195 13.7806 3.56466 14.4256 1.54543 14.4256C1.19756 14.4256 0.854694 14.4066 0.517822 14.3696C2.4241 15.5146 4.68923 16.1846 7.12231 16.1846C15.0473 16.1846 19.3806 10.0286 19.3806 4.69159C19.3806 4.51559 19.3756 4.34259 19.3676 4.16859C20.2093 3.59859 20.94 2.88759 21.5178 2.07859Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer__socials-link-youtube">
+                            <svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.3694 0.183594H4.67057C2.3794 0.183594 0.517822 2.02536 0.517822 4.29215V10.075C0.517822 12.3461 2.3794 14.1836 4.67057 14.1836H16.3651C18.6606 14.1836 20.5178 12.3418 20.5178 10.075V4.29215C20.5222 2.02536 18.6606 0.183594 16.3694 0.183594ZM13.5575 7.46909L8.08562 10.0493C7.93808 10.118 7.77319 10.0149 7.77319 9.85179V4.52827C7.77319 4.36513 7.94676 4.2621 8.08996 4.33508L13.5619 7.07841C13.7268 7.15998 13.7224 7.39181 13.5575 7.46909Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer__socials-link-twitch">
+                            <svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M20.5178 13.0112V0.183594H2.74004L0.517822 2.45946V14.4595H6.07338V18.1836H8.51782L11.1845 15.4939H17.8512L20.5178 13.0112ZM7.40674 12.8044H3.85118C3.60674 12.8044 3.40674 12.6182 3.40674 12.3906V2.25264C3.40674 2.02505 3.60674 1.83885 3.85118 1.83885H18.0734C18.3179 1.83885 18.5178 2.02505 18.5178 2.25264V10.1147C18.5178 10.2285 18.4734 10.3319 18.3901 10.4095L15.9456 12.6854C15.8623 12.763 15.7456 12.8044 15.629 12.8044H11.5456L8.10118 15.0078C8.02896 15.0544 7.94007 15.0802 7.85118 15.0802C7.77896 15.0802 7.71229 15.0647 7.64563 15.0337C7.49563 14.9613 7.40674 14.8216 7.40674 14.6664V12.8044Z" fill="white"/>
+                                <path d="M14.0733 9.18374V5.04581H12.2955V9.18374H14.0733ZM9.62885 9.18374V5.04581H7.85107V9.18374H9.62885Z" fill="white"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <p class="footer__bottom-text"> © 2018 Outpost Games, Inc. All Rights Reserved</p>
+                    <ul class="footer__bottom-list">
+                        <li class="footer__bottom-item">
+                            <a href="#" class="footer__bottom-link">Privacy Policy</a>
+                        </li>
+                        <li class="footer__bottom-item">
+                            <a href="#" class="footer__bottom-link">Terms of Services</a>
+                        </li>
+                        <li class="footer__bottom-item">
+                            <a href="#" class="footer__bottom-link">Code of Conduct </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
